@@ -23,16 +23,16 @@ public class ATM {
 			acc.withdraw(600);
 		}
 		catch (Exception e){ //fill in with own exception
-			//System.out.println(e);
-			//System.out.println(e.getMessage());
+			System.out.println(e);
+			System.out.println(e.getMessage());
 		}
 		
 		try {
 			acc.quickWithdraw(600);
 		}
 		catch (Exception e){ //fill in with own exception
-			//System.out.println(e);
-			//System.out.println(e.getMessage());
+			System.out.println(e);
+			System.out.println(e.getMessage());
 		}
 			
 	}

@@ -1,0 +1,6 @@
+What are 3 good practices related to exception handling?
+
+1) Always provide a meaningful message on Exception - this is useful to track the specific error/exception that is being thrown and where you can trace
+	it back to.
+2) Avoid empty catch blocks - it leaves you object unuseable and hides the actual errors arising in your program.
+3) Either log the excpetion or throw but do not do both - logging will result in multiple log messages in log files and digging throught the logs is not fun.
